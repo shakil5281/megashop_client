@@ -11,7 +11,7 @@ const ProductPage = () => {
                 <Box component='div' sx={{ width: { lg: '90%', xs: '100%' }, margin: '0 auto' }}>
                     <ProductHead />
                     <Headproduct />
-                    <Featureproduct />
+                    {/* <Featureproduct /> */}
                 </Box>
             </Box>
         </>

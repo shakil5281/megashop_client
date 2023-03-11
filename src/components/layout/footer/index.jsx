@@ -43,10 +43,10 @@ const index = () => {
               </Box>
 
               <Box component={'div'} sx={{ marginTop: 3 }}>
-                <IconButton> <FacebookRoundedIcon color='primary' fontSize='large' /></IconButton>
-                <IconButton> <LinkedInIcon color='primary' fontSize='large' /></IconButton>
-                <IconButton> <TwitterIcon color='primary' fontSize='large' /></IconButton>
-                <IconButton> <InstagramIcon color='primary' fontSize='large' /></IconButton>
+                <IconButton> <FacebookRoundedIcon color='info' fontSize='large' /></IconButton>
+                <IconButton> <LinkedInIcon color='info' fontSize='large' /></IconButton>
+                <IconButton> <TwitterIcon color='info' fontSize='large' /></IconButton>
+                <IconButton> <InstagramIcon color='info' fontSize='large' /></IconButton>
               </Box>
             </Box>
           </Box>
