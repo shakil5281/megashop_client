@@ -18,7 +18,7 @@ const Categorymanu = () => {
             {(popupState) => (
               <React.Fragment>
                 <StyledButton sx={{ paddingRight: 3 }} color='inherit' startIcon={<DashboardCustomizeRoundedIcon />} endIcon={<ArrowDropDownIcon />} disableRipple  {...bindTrigger(popupState)}>
-                  Dashboard
+                  Categories
                 </StyledButton>
                 <Menu sx={{ marginTop: 2, padding: 3 }} {...bindMenu(popupState)}>
                   {
