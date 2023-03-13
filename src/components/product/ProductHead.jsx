@@ -5,6 +5,13 @@ import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded
 import AccessibilityNewIcon from '@mui/icons-material/AccessibilityNew';
 import Grid from '@mui/material/Grid';
 import ShoppingCartRoundedIcon from '@mui/icons-material/ShoppingCartRounded';
+import LocalShippingTwoToneIcon from '@mui/icons-material/LocalShippingTwoTone';
+import CardGiftcardTwoToneIcon from '@mui/icons-material/CardGiftcardTwoTone';
+import HeadsetMicTwoToneIcon from '@mui/icons-material/HeadsetMicTwoTone';
+import PercentIcon from '@mui/icons-material/Percent';
+import MonetizationOnTwoToneIcon from '@mui/icons-material/MonetizationOnTwoTone';
+
+
 
 const ProductHead = () => {
     return (
@@ -14,21 +21,21 @@ const ProductHead = () => {
                     <Box component={'div'}>
                         <Grid container spacing={1} alignItems="right">
                             <Grid item>
-                                <LoopRoundedIcon fontSize='large' />
+                                <LocalShippingTwoToneIcon fontSize='large' />
                             </Grid>
                             <Grid item>
                                 <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body">Free Shiping </Typography>
-                                <Typography sx={{ marginLeft: 2 }} variant="body2">Form all oders $100</Typography>
+                                <Typography sx={{ marginLeft: 2 }} variant="body2">From all orders over $100 </Typography>
                             </Grid>
                         </Grid>
                     </Box>
                     <Box component={'div'}>
                         <Grid container spacing={1} alignItems="center">
                             <Grid item>
-                                <FavoriteBorderRoundedIcon fontSize='large' />
+                                <CardGiftcardTwoToneIcon fontSize='large' />
                             </Grid>
                             <Grid item>
-                                <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body">Daily Sarprice offer </Typography>
+                                <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body">Daily Surprise offers </Typography>
                                 <Typography sx={{ marginLeft: 2 }} variant="body2">Save Up to 20% off</Typography>
                             </Grid>
                         </Grid>
@@ -36,33 +43,33 @@ const ProductHead = () => {
                     <Box component={'div'}>
                         <Grid container spacing={1} alignItems="center">
                             <Grid item>
-                                <AccessibilityNewIcon fontSize='large' />
+                                <HeadsetMicTwoToneIcon fontSize='large' />
                             </Grid>
                             <Grid item>
                                 <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body">Support 24/7 </Typography>
-                                <Typography sx={{ marginLeft: 2 }} variant="body2">My Account</Typography>
+                                <Typography sx={{ marginLeft: 2 }} variant="body2">Shop with an expert</Typography>
                             </Grid>
                         </Grid>
                     </Box>
                     <Box component={'div'}>
                         <Grid container spacing={1} alignItems="center">
                             <Grid item>
-                                <ShoppingCartRoundedIcon fontSize='large' />
+                                <PercentIcon fontSize='large' />
                             </Grid>
                             <Grid item>
-                                <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body">Affor Dabla price </Typography>
-                                <Typography sx={{ marginLeft: 2 }} variant="body2">$1000</Typography>
+                                <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body"> Affordable Prices </Typography>
+                                <Typography sx={{ marginLeft: 2 }} variant="body2">Del Factory Direct price</Typography>
                             </Grid>
                         </Grid>
                     </Box>
                     <Box component={'div'}>
                     <Grid container spacing={1} alignItems="center">
                             <Grid item>
-                                <ShoppingCartRoundedIcon fontSize='large' />
+                                <MonetizationOnTwoToneIcon fontSize='large' />
                             </Grid>
                             <Grid item>
-                                <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body">Affor Dabla price </Typography>
-                                <Typography sx={{ marginLeft: 2 }} variant="body2">$1000</Typography>
+                                <Typography sx={{ marginLeft: 2, fontWeight: '600' }} variant="body"> Sucure Payments </Typography>
+                                <Typography sx={{ marginLeft: 2 }} variant="body2"> 100% protected payment</Typography>
                             </Grid>
                         </Grid>
                     </Box>

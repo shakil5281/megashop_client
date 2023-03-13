@@ -3,6 +3,7 @@ import { Box } from '@mui/material'
 import ProductHead from './ProductHead'
 import Headproduct from './Headproduct'
 import Featureproduct from './Featureproduct'
+import Blogpost from '../blog/Blogpost'
 
 const ProductPage = () => {
     return (
@@ -11,7 +12,9 @@ const ProductPage = () => {
                 <Box component='div' sx={{ width: { lg: '90%', xs: '100%' }, margin: '0 auto' }}>
                     <ProductHead />
                     <Headproduct />
-                    {/* <Featureproduct /> */}
+                    <Featureproduct />
+
+                    <Blogpost />
                 </Box>
             </Box>
         </>
